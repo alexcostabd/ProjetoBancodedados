@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SETOR" directorySegmentName="seg_0" id="9CB72DE9-3F2B-9BBC-D55B-83393B43982B">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:37 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<schemaObject>D7AD8A45-7043-9029-2D57-787DD7E13DDB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9E32B823-5EA6-87D0-5562-13B029A696DE</segment>
+<tableSpace>FB836209-12FD-4C81-C412-958044F6636D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TIP_SETORID" id="25EFC2D3-C010-E6CA-1D80-119351033ECA">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FUN_ID" id="80D3B78A-87D6-12AB-C624-308A8424BEB6">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SET_ID" id="A879D3FD-CF13-511C-5F15-10223FE653AC">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMP_ID" id="EDB7BEC9-D8F6-D667-3BE8-34E7A2A7A57B">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008906" id="3D58AB6B-F8A9-2B64-16A2-F25836BE9DB5">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:53:40 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008814" id="44D8B2F5-488F-959D-4448-722444716D3A">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:39 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008905" id="BDB4E389-03DB-6913-7AC9-7DFAE6C175B3">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:53:40 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SETOR_PK" id="4E62C3B2-3F51-8F60-8B29-A5912EE5E9FB">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:39 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<schemaObject>D7AD8A45-7043-9029-2D57-787DD7E13DDB</schemaObject>
+<segment>C5ABDCC8-3726-9687-7737-DDC54751D6CD</segment>
+<tableSpace>FB836209-12FD-4C81-C412-958044F6636D</tableSpace>
+<indexSegment>C5ABDCC8-3726-9687-7737-DDC54751D6CD</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

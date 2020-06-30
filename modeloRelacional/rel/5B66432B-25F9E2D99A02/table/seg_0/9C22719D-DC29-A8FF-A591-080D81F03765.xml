@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C22719D-DC29-A8FF-A591-080D81F03765" schemaObject="D7AD8A45-7043-9029-2D57-787DD7E13DDB" name="TRANSACAO">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>USER_PROJETO_FINAL</sourceObjSchema>
+<sourceObjName>TRANSACAO</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:37 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRANS_ID" id="BD5A615A-28A8-9A1E-333D-5E7572BEFA4D">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>TRANSACAO</sourceObjSchema>
+<sourceObjName>TRANS_ID</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANS_DESCRICAO" id="0C968D0F-FB97-F2BA-36BC-EFF4AA75ED1F">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>TRANSACAO</sourceObjSchema>
+<sourceObjName>TRANS_DESCRICAO</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANS_DATA" id="1795A22E-E1C3-6F07-08D4-C58D25069C3B">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>TRANSACAO</sourceObjSchema>
+<sourceObjName>TRANS_DATA</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMP_ID" id="98FBFC5C-6A7D-1853-DA25-6B90B1187669">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>TRANSACAO</sourceObjSchema>
+<sourceObjName>EMP_ID</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9DDE23A6-CE65-52D4-6C15-96EFB835794C" referredColumn="A2147BD5-335F-2CBD-66CF-C20F83A5321E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06D3D23E-C31A-CF46-2EB3-A5133603E1F0" schemaObject="D7AD8A45-7043-9029-2D57-787DD7E13DDB" name="TRANSACAO_PK">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>USER_PROJETO_FINAL</sourceObjSchema>
+<sourceObjName>SYS_C008775</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD5A615A-28A8-9A1E-333D-5E7572BEFA4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4BED6B2-5083-7023-0CC3-487A80427A26" name="SYS_C008776">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:39 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98FBFC5C-6A7D-1853-DA25-6B90B1187669"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

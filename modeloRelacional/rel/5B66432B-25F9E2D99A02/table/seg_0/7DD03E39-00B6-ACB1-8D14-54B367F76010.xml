@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DD03E39-00B6-ACB1-8D14-54B367F76010" schemaObject="D7AD8A45-7043-9029-2D57-787DD7E13DDB" name="CONECTA_EMPRESA">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>USER_PROJETO_FINAL</sourceObjSchema>
+<sourceObjName>CONECTA_EMPRESA</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:53:39 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<importedID>A5DCC761-0C0C-4EA3-E552-1E1668FE207A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USU_ID" id="FA0D6925-370F-3A72-0E6F-4DCB995EE158">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>CONECTA_EMPRESA</sourceObjSchema>
+<sourceObjName>USU_ID</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:53:39 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<importedID>3EA8A6AB-279B-B817-3C37-F0A9EF82B2E8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5D110F3-88F2-1B30-9DA7-FED83308AC62" referredColumn="C0C18188-7B07-4F70-4BCA-126C4C9F3AC5"/>
+</associations>
+</Column>
+<Column name="EMP_ID" id="FCA401D6-D946-9AFD-647F-B61D0D85FBE1">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>CONECTA_EMPRESA</sourceObjSchema>
+<sourceObjName>EMP_ID</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:53:39 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<importedID>C9A90600-58DB-AE00-0BD3-281972330257</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA6E2C33-58DF-398D-BBE7-897F272F5112" referredColumn="A2147BD5-335F-2CBD-66CF-C20F83A5321E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56A392FC-412E-BD11-C5B0-403E26309281" name="SYS_C008895">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:53:39 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCA401D6-D946-9AFD-647F-B61D0D85FBE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31DE4A4E-31EB-5E60-4894-0A3552908F21" name="SYS_C008896">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:53:39 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA0D6925-370F-3A72-0E6F-4DCB995EE158"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

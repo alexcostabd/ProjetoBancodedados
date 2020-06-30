@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ENDERECO_EMPRESA" directorySegmentName="seg_0" id="7B64906F-C7A7-D22E-5510-83230EFB020F">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:37 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<schemaObject>D7AD8A45-7043-9029-2D57-787DD7E13DDB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9E32B823-5EA6-87D0-5562-13B029A696DE</segment>
+<tableSpace>FB836209-12FD-4C81-C412-958044F6636D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EMPEND_BAIRRO" id="44F18BAA-D80B-0D1A-96B4-E32D3D258A3B">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPEND_CIDADE" id="4E77E834-C29E-56DC-8E0A-377F4DB05EC4">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPEND_SITE" id="52E4FE13-8A6B-9E51-4685-8187B90E25F0">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPEND_EMAIL" id="5418AFEC-C078-D1A7-7C8C-46885624C838">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPEND_CEP" id="6672477D-6B89-8EAD-3759-20B9365E3296">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPEND_LOGRADOURO" id="6BEEB27C-8F13-EA8A-A03D-25C5CBC52F00">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPEND_ID" id="7750D078-FA8A-5ACE-A4B7-EA2600C58CCA">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPEND_ESTADO" id="AA0956B2-9FDF-DA37-5D93-036CA257F714">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPEND_NUMERO" id="B84802F5-0B76-CF09-9CEF-141D25B20CD6">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMP_ID" id="D0C6B813-D44D-328D-C629-F4ED4A8A717F">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPEND_COMPLEMENTO" id="EB4E89CE-5ABF-29E0-D846-CE91B3A6D2A9">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008831" id="67BF59FC-402C-EA30-6FA4-6FA463E08BF6">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:39 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ENDERECO_EMPRESA_PK" id="24E1C0BC-E2C6-9F22-F667-4AE399B79286">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:39 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<schemaObject>D7AD8A45-7043-9029-2D57-787DD7E13DDB</schemaObject>
+<segment>C5ABDCC8-3726-9687-7737-DDC54751D6CD</segment>
+<tableSpace>FB836209-12FD-4C81-C412-958044F6636D</tableSpace>
+<indexSegment>C5ABDCC8-3726-9687-7737-DDC54751D6CD</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

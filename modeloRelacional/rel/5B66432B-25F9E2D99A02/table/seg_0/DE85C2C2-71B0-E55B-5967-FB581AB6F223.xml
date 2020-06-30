@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE85C2C2-71B0-E55B-5967-FB581AB6F223" schemaObject="D7AD8A45-7043-9029-2D57-787DD7E13DDB" name="TIPOS_SETOR">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>USER_PROJETO_FINAL</sourceObjSchema>
+<sourceObjName>TIPOS_SETOR</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:37 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TIP_SETORID" id="660A4EF6-C35E-F4D4-175A-5269A79AE9BA">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>TIPOS_SETOR</sourceObjSchema>
+<sourceObjName>TIP_SETORID</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIP_DESCRICAO" id="4AD47A58-3ACF-FDF6-2471-C1E0BCFBAAD0">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>TIPOS_SETOR</sourceObjSchema>
+<sourceObjName>TIP_DESCRICAO</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E2B47E7-4A5B-51BF-CFF4-8C9D041F9E5C" schemaObject="D7AD8A45-7043-9029-2D57-787DD7E13DDB" name="TIPOS_SETOR_PK">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>USER_PROJETO_FINAL</sourceObjSchema>
+<sourceObjName>SYS_C008808</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="660A4EF6-C35E-F4D4-175A-5269A79AE9BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

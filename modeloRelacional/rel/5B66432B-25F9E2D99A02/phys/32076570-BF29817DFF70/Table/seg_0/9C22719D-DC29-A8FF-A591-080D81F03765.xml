@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TRANSACAO" directorySegmentName="seg_0" id="9C22719D-DC29-A8FF-A591-080D81F03765">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:37 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<schemaObject>D7AD8A45-7043-9029-2D57-787DD7E13DDB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9E32B823-5EA6-87D0-5562-13B029A696DE</segment>
+<tableSpace>FB836209-12FD-4C81-C412-958044F6636D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TRANS_DESCRICAO" id="0C968D0F-FB97-F2BA-36BC-EFF4AA75ED1F">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRANS_DATA" id="1795A22E-E1C3-6F07-08D4-C58D25069C3B">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMP_ID" id="98FBFC5C-6A7D-1853-DA25-6B90B1187669">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRANS_ID" id="BD5A615A-28A8-9A1E-333D-5E7572BEFA4D">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008776" id="A4BED6B2-5083-7023-0CC3-487A80427A26">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:39 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TRANSACAO_PK" id="06D3D23E-C31A-CF46-2EB3-A5133603E1F0">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:39 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<schemaObject>D7AD8A45-7043-9029-2D57-787DD7E13DDB</schemaObject>
+<segment>C5ABDCC8-3726-9687-7737-DDC54751D6CD</segment>
+<tableSpace>FB836209-12FD-4C81-C412-958044F6636D</tableSpace>
+<indexSegment>C5ABDCC8-3726-9687-7737-DDC54751D6CD</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

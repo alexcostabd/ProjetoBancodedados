@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="USER_PROJETO_FINAL" directorySegmentName="seg_0" id="F84F6CA8-7011-8736-B141-DD15A54C3876">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjName>USER_PROJETO_FINAL</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:36 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<schemaObject>D7AD8A45-7043-9029-2D57-787DD7E13DDB</schemaObject>
+<defTableSpace>FB836209-12FD-4C81-C412-958044F6636D</defTableSpace>
+<privilegesWithAdminOption>UNLIMITED TABLESPACE</privilegesWithAdminOption>
+<profile>DEFAULT</profile>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="FC991235-6628-8B23-7625-6A9164F58E54">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:53:40 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<tableSpace>FB836209-12FD-4C81-C412-958044F6636D</tableSpace>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

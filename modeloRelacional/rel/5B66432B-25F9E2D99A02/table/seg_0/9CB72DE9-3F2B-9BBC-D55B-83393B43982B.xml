@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CB72DE9-3F2B-9BBC-D55B-83393B43982B" schemaObject="D7AD8A45-7043-9029-2D57-787DD7E13DDB" name="SETOR">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>USER_PROJETO_FINAL</sourceObjSchema>
+<sourceObjName>SETOR</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:37 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SET_ID" id="A879D3FD-CF13-511C-5F15-10223FE653AC">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>SETOR</sourceObjSchema>
+<sourceObjName>SET_ID</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMP_ID" id="EDB7BEC9-D8F6-D667-3BE8-34E7A2A7A57B">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>SETOR</sourceObjSchema>
+<sourceObjName>EMP_ID</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40A6F795-6D52-77C9-E37C-6555902EE409" referredColumn="A2147BD5-335F-2CBD-66CF-C20F83A5321E"/>
+</associations>
+</Column>
+<Column name="FUN_ID" id="80D3B78A-87D6-12AB-C624-308A8424BEB6">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>SETOR</sourceObjSchema>
+<sourceObjName>FUN_ID</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7ACBAFC6-9606-2680-E87F-56842E81B975" referredColumn="1BDDA234-097A-F26F-BD07-A0C2584AA9D2"/>
+</associations>
+</Column>
+<Column name="TIP_SETORID" id="25EFC2D3-C010-E6CA-1D80-119351033ECA">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>SETOR</sourceObjSchema>
+<sourceObjName>TIP_SETORID</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB98FD05-49DC-93C2-9B26-40E42C83A2A5" referredColumn="660A4EF6-C35E-F4D4-175A-5269A79AE9BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E62C3B2-3F51-8F60-8B29-A5912EE5E9FB" schemaObject="D7AD8A45-7043-9029-2D57-787DD7E13DDB" name="SETOR_PK">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>USER_PROJETO_FINAL</sourceObjSchema>
+<sourceObjName>SYS_C008813</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A879D3FD-CF13-511C-5F15-10223FE653AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44D8B2F5-488F-959D-4448-722444716D3A" name="SYS_C008814">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:39 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDB7BEC9-D8F6-D667-3BE8-34E7A2A7A57B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BDB4E389-03DB-6913-7AC9-7DFAE6C175B3" name="SYS_C008905">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:53:40 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80D3B78A-87D6-12AB-C624-308A8424BEB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D58AB6B-F8A9-2B64-16A2-F25836BE9DB5" name="SYS_C008906">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:53:40 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25EFC2D3-C010-E6CA-1D80-119351033ECA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

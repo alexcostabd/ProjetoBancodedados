@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modeloRelacional" id="2DEC861C-889A-459E-974B-42BE392D8D22" version="3.5">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:33:52 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2DEC861C-889A-459E-974B-42BE392D8D22</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="D107A045-2F15-2D3A-126E-FB0A72CDA470">
+<designStoragePath>C:\</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

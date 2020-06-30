@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="USUARIO" directorySegmentName="seg_0" id="053D602C-AA80-F53F-2B6B-D144A1FBF2E3">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:37 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<schemaObject>D7AD8A45-7043-9029-2D57-787DD7E13DDB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9E32B823-5EA6-87D0-5562-13B029A696DE</segment>
+<tableSpace>FB836209-12FD-4C81-C412-958044F6636D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="USU_CPF" id="09999B18-088D-AC6C-9DC4-74F7AEC1326B">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USU_EMAIL" id="0D3D3900-E5DD-AE7F-AAF3-2AE472CC1D1A">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USU_RG" id="483C6384-F7CB-F3EA-11F6-6C488F366DF4">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USU_NOME" id="960A7771-11A6-07CD-7A23-2538DE16B15A">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USU_SENHA" id="A7DD7567-4F00-143F-745E-432018D8C2D5">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USU_ID" id="C0C18188-7B07-4F70-4BCA-126C4C9F3AC5">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="USUARIO_PK" id="30223F72-168E-3EBA-BB61-06D5A154C267">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:39 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<schemaObject>D7AD8A45-7043-9029-2D57-787DD7E13DDB</schemaObject>
+<segment>C5ABDCC8-3726-9687-7737-DDC54751D6CD</segment>
+<tableSpace>FB836209-12FD-4C81-C412-958044F6636D</tableSpace>
+<indexSegment>C5ABDCC8-3726-9687-7737-DDC54751D6CD</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

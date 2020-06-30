@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CONECTA_EMPRESA" directorySegmentName="seg_0" id="7DD03E39-00B6-ACB1-8D14-54B367F76010">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:53:39 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<schemaObject>D7AD8A45-7043-9029-2D57-787DD7E13DDB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9E32B823-5EA6-87D0-5562-13B029A696DE</segment>
+<tableSpace>FB836209-12FD-4C81-C412-958044F6636D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="USU_ID" id="FA0D6925-370F-3A72-0E6F-4DCB995EE158">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:53:39 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMP_ID" id="FCA401D6-D946-9AFD-647F-B61D0D85FBE1">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:53:39 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008896" id="31DE4A4E-31EB-5E60-4894-0A3552908F21">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:53:39 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C008895" id="56A392FC-412E-BD11-C5B0-403E26309281">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:53:39 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

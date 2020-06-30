@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1614E1C-1605-6C3B-B23E-5DD1A106C642" schemaObject="D7AD8A45-7043-9029-2D57-787DD7E13DDB" name="TELEFONE">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>USER_PROJETO_FINAL</sourceObjSchema>
+<sourceObjName>TELEFONE</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:37 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TEL_ID" id="079104E3-BEF1-F0EB-66A0-81ABE77FEC40">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>TELEFONE</sourceObjSchema>
+<sourceObjName>TEL_ID</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USU_ID" id="2F186A4C-C958-2CD6-59BE-D1D164EC1F27">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>TELEFONE</sourceObjSchema>
+<sourceObjName>USU_ID</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F5B6388-FEC1-9301-271D-4EFA96FF7425" referredColumn="C0C18188-7B07-4F70-4BCA-126C4C9F3AC5"/>
+</associations>
+</Column>
+<Column name="TEL_DDD" id="3AF39B08-B0B1-D8F6-4215-D0E537FD9667">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>TELEFONE</sourceObjSchema>
+<sourceObjName>TEL_DDD</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEL_NUMERO" id="AD8FE2CD-5F46-4CCE-CF48-309FD3580F7B">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>TELEFONE</sourceObjSchema>
+<sourceObjName>TEL_NUMERO</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77DC0488-3EEA-A546-2856-DE0930302886" schemaObject="D7AD8A45-7043-9029-2D57-787DD7E13DDB" name="TELEFONE_PK">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>USER_PROJETO_FINAL</sourceObjSchema>
+<sourceObjName>SYS_C008736</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="079104E3-BEF1-F0EB-66A0-81ABE77FEC40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C7D1052-6A6C-BC03-BA8B-BDACCFC03CAE" name="SYS_C008850">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:53:40 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F186A4C-C958-2CD6-59BE-D1D164EC1F27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,198 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B64906F-C7A7-D22E-5510-83230EFB020F" schemaObject="D7AD8A45-7043-9029-2D57-787DD7E13DDB" name="ENDERECO_EMPRESA">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>USER_PROJETO_FINAL</sourceObjSchema>
+<sourceObjName>ENDERECO_EMPRESA</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:37 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPEND_ID" id="7750D078-FA8A-5ACE-A4B7-EA2600C58CCA">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>ENDERECO_EMPRESA</sourceObjSchema>
+<sourceObjName>EMPEND_ID</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMP_ID" id="D0C6B813-D44D-328D-C629-F4ED4A8A717F">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>ENDERECO_EMPRESA</sourceObjSchema>
+<sourceObjName>EMP_ID</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24C93771-AFD0-B0B0-AA8A-E1D722DE4F00" referredColumn="A2147BD5-335F-2CBD-66CF-C20F83A5321E"/>
+</associations>
+</Column>
+<Column name="EMPEND_CEP" id="6672477D-6B89-8EAD-3759-20B9365E3296">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>ENDERECO_EMPRESA</sourceObjSchema>
+<sourceObjName>EMPEND_CEP</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPEND_LOGRADOURO" id="6BEEB27C-8F13-EA8A-A03D-25C5CBC52F00">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>ENDERECO_EMPRESA</sourceObjSchema>
+<sourceObjName>EMPEND_LOGRADOURO</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPEND_NUMERO" id="B84802F5-0B76-CF09-9CEF-141D25B20CD6">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>ENDERECO_EMPRESA</sourceObjSchema>
+<sourceObjName>EMPEND_NUMERO</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPEND_COMPLEMENTO" id="EB4E89CE-5ABF-29E0-D846-CE91B3A6D2A9">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>ENDERECO_EMPRESA</sourceObjSchema>
+<sourceObjName>EMPEND_COMPLEMENTO</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPEND_CIDADE" id="4E77E834-C29E-56DC-8E0A-377F4DB05EC4">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>ENDERECO_EMPRESA</sourceObjSchema>
+<sourceObjName>EMPEND_CIDADE</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPEND_ESTADO" id="AA0956B2-9FDF-DA37-5D93-036CA257F714">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>ENDERECO_EMPRESA</sourceObjSchema>
+<sourceObjName>EMPEND_ESTADO</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPEND_BAIRRO" id="44F18BAA-D80B-0D1A-96B4-E32D3D258A3B">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>ENDERECO_EMPRESA</sourceObjSchema>
+<sourceObjName>EMPEND_BAIRRO</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPEND_EMAIL" id="5418AFEC-C078-D1A7-7C8C-46885624C838">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>ENDERECO_EMPRESA</sourceObjSchema>
+<sourceObjName>EMPEND_EMAIL</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPEND_SITE" id="52E4FE13-8A6B-9E51-4685-8187B90E25F0">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>ENDERECO_EMPRESA</sourceObjSchema>
+<sourceObjName>EMPEND_SITE</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24E1C0BC-E2C6-9F22-F667-4AE399B79286" schemaObject="D7AD8A45-7043-9029-2D57-787DD7E13DDB" name="ENDERECO_EMPRESA_PK">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>USER_PROJETO_FINAL</sourceObjSchema>
+<sourceObjName>SYS_C008830</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7750D078-FA8A-5ACE-A4B7-EA2600C58CCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67BF59FC-402C-EA30-6FA4-6FA463E08BF6" name="SYS_C008831">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:39 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0C6B813-D44D-328D-C629-F4ED4A8A717F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

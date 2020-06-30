@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66BA33B1-3329-7AE7-DA5C-838FAE0E0C4C" schemaObject="D7AD8A45-7043-9029-2D57-787DD7E13DDB" name="FUNCIONARIO">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>USER_PROJETO_FINAL</sourceObjSchema>
+<sourceObjName>FUNCIONARIO</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:37 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FUN_ID" id="1BDDA234-097A-F26F-BD07-A0C2584AA9D2">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>FUNCIONARIO</sourceObjSchema>
+<sourceObjName>FUN_ID</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FUN_CTPS" id="4CCC7F9A-37C6-1BC5-36A1-211F115C1E56">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>FUNCIONARIO</sourceObjSchema>
+<sourceObjName>FUN_CTPS</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USU_ID" id="2E86535A-A0D1-E7BF-E137-A273693E7AB8">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>FUNCIONARIO</sourceObjSchema>
+<sourceObjName>USU_ID</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBDC25D2-C0F6-F1C8-08CC-A03CF29FD500" referredColumn="C0C18188-7B07-4F70-4BCA-126C4C9F3AC5"/>
+</associations>
+</Column>
+<Column name="FUCAO_ID" id="C3D7DFCD-9FA9-3B81-5D1C-75D56894A991">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>FUNCIONARIO</sourceObjSchema>
+<sourceObjName>FUCAO_ID</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDC2CAF5-CCF0-1CD2-46C1-1BC649FC3CFE" referredColumn="E0405EBD-6EAB-FD08-74AD-48DF8B0411ED"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF30B7EB-072A-1A21-F393-BF44B8F5010C" schemaObject="D7AD8A45-7043-9029-2D57-787DD7E13DDB" name="FUNCIONARIO_PK">
+<sourceConnName>PROJETO_FINAL_BD</sourceConnName>
+<sourceObjSchema>USER_PROJETO_FINAL</sourceObjSchema>
+<sourceObjName>SYS_C008746</sourceObjName>
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:38 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BDDA234-097A-F26F-BD07-A0C2584AA9D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="195EB010-899B-D555-C336-DFAD67E524C0" name="SYS_C008747">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:39 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E86535A-A0D1-E7BF-E137-A273693E7AB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F4BA210-49AA-7795-3C21-4866D583F258" name="SYS_C008748">
+<createdBy>Alex Costa</createdBy>
+<createdTime>2020-06-26 01:34:39 UTC</createdTime>
+<ownerDesignName>modeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3D7DFCD-9FA9-3B81-5D1C-75D56894A991"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
