@@ -2,4 +2,4 @@
 <h1>Projeto da matéria de desenvolvimento de banco de dados Fatec/2020.</h1>
 
 
-<img src ="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ndd.com.br%2Fblog%2Fnegocios%2Fndd-e-oracle-planejam-novos-projetos-para-2019%2F&psig=AOvVaw21Q3CiVpudrPOHyEdq4U-o&ust=1593736726469000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKjmrJiqreoCFQAAAAAdAAAAABAD">
+<img src ="https://media-exp1.licdn.com/dms/image/C4E0BAQGmS4ZS9i2T6w/company-logo_200_200/0?e=2159024400&v=beta&t=BNlx0YmBG2Yw4ACxLfFTw75FjfgwO2Juak0EwgZcPLc">
