@@ -16,7 +16,7 @@ WHERE
 
 
 /*
-* VERIFICA OS RECEBIMENTOS DE USUÁRIOS EM UMA DETERMINADA FAIXA DE TEMPO.
+* VERIFICA OS RECEBIMENTO DE USUÁRIOS EM UMA DETERMINADA FAIXA DE TEMPO.
 */
 SELECT
     DISTINCT USU.usu_nome "NOME FUNCIONÁRIO",
@@ -24,7 +24,7 @@ SELECT
     TEL.tel_numero "TELEFONE",
     STR.tip_descricao "SETOR",
     EMP.emp_nome_fantasia "NOME DA EMPRESA",
-    TPF.funcao_salario
+    TPF.funcao_salario "SALÁRIO"
 FROM 
     USUARIO USU, 
     FUNCIONARIO FUN,
@@ -43,6 +43,7 @@ WHERE
     UPPER(STR.tip_descricao) = 'PEDAGOGICO' AND
     TPF.funcao_salario BETWEEN '2000.00' AND '4000.00'
     ORDER BY USU.usu_nome;
+
 
 
 
