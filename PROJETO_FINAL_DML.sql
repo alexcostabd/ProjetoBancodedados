@@ -1,31 +1,31 @@
 
 
 ------------------------- INSERIR DADOS PARA OS USU�?RIOS DA PLATAFORMA --------------------
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '261.829.966-33', '40.396.994-3', 'rafaelandrecaldeira@valedesign.com.br', 'Rafael Andrao Caldeira', 'ABC123');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '261.829.966-33', '40.396.994-3','rafaelandrecaldeira@valedesign.com.br', 'Rafael Andrao Caldeira', 'ABC123');
 INSERT INTO USUARIO VALUES (usuario_seq.nextval, '364.937.718-70','30.116.574-9','kamillydeborarayssapereira@eccofibra.com.br','Kamilly Débora Rayssa Pereira','egeLPmASzl');
 INSERT INTO USUARIO VALUES (usuario_seq.nextval, '525.049.011-51','42.875.239-1','alicesarasebastianagomes@charquesorocaba.com.br','Alice Sara Sebastiana Gomes','tdgtim1IPd');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '404.386.784-00','18.394.145-7','Bento Gustavo Manuel Sales','bentogustavomanuelsales-90@vitaonline.com.br','EfffyWKhNk');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '703.401.815-40','48.679.096-4','Filipe Renato da Luz','filiperenatodaluz@rubens.adm.br','PsKmLOsCaS');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '167.835.727-81','50.016.898-2','César André Yago Assunção','ccesarandreyagoassuncao@dyna.com.br','PG796TjolR');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '298.166.669-01','45.706.919-3','Laís Sophie Esther Figueiredo','laissophieestherfigueiredo@focoreducao.com.br','rMufXaL8BJ');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '809.540.527-22','39.959.298-2','Henry Rodrigo dos Santos','henryrodrigodossantos-91@globomail.com','Jq5GQWLxj8');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '002.724.114-93','24.800.325-2','Amanda Larissa Duarte','amandalarissaduarte_@ynail.com.br','TPej9sDLzc');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '282.052.167-38','29.911.226-3','Heloise Gabriela Nair Oliveira','heloisegabrielanairoliveira@ruizonline.com.br','BCdOC8dMmL');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '786.523.009-50','13.086.419-5','Lorena Antonia Ribeiro','lorenaantoniaribeiro@valltech.com.br','groNO6kQ9h');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '839.694.682-56','49.126.826-9','Erick Breno Ribeiro','eerickbrenoribeiro@pp33.com.br','fMWtU8mryc');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '631.727.781-85','21.070.561-9','Joana Rita Melo','jjoanaritamelo@robertacorrea.com','2o1DYHxJ99');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '342.971.929-18','34.157.030-8','Severino Henry Araujo','severinohenryaraujo-88@marcenariamagno.com.br','7DBJ8xP4FO');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '386.425.791-37','47.002.949-3','Rayssa Sophia Tereza das Neves','rayssasophiaterezadasneves@jbtc.com','kmwHauPJxa');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '060.757.672-31','19.357.065-8','Carla Vitoria Melissa Novaes','carlavitoriamelissanovaes@ocaconsultoria.com','BR8FCgzqPG');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '450.243.766-25','43.980.606-9','Marli Vitoria Alessandra Fogaca','mmarlivitoriaalessandrafogaca@vivo.com.br','iQpngI8Tzk');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '115.090.906-49','17.687.263-2','Simone Luzia Amanda Rocha','simoneluziaamandarocha-86@ctlive.com.br','\\\\\\\\\\');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '499.389.888-65','47.148.865-3','Diego Bruno Thomas da Silva','diegobrunothomasdasilva@emerson.com','eAhYZUYRNO');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '669.099.945-90','20.136.633-2','Rosa Mariah Emily Caldeira','rosamariahemilycaldeira_@robiel.com.br','CG1jjSnaJC');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '404.386.784-00','18.394.145-7','bentogustavomanuelsales-90@vitaonline.com.br','Bento Gustavo Manuel Sales','EfffyWKhNk');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '703.401.815-40','48.679.096-4','filiperenatodaluz@rubens.adm.br','Filipe Renato da Luz','PsKmLOsCaS');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '167.835.727-81','50.016.898-2','ccesarandreyagoassuncao@dyna.com.br','César André Yago Assunção','PG796TjolR');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '298.166.669-01','45.706.919-3','laissophieestherfigueiredo@focoreducao.com.br','Laís Sophie Esther Figueiredo','rMufXaL8BJ');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '809.540.527-22','39.959.298-2','henryrodrigodossantos-91@globomail.com', 'Henry Rodrigo dos Santos','Jq5GQWLxj8');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '002.724.114-93','24.800.325-2','amandalarissaduarte_@ynail.com.br','Amanda Larissa Duarte','TPej9sDLzc');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '282.052.167-38','29.911.226-3','heloisegabrielanairoliveira@ruizonline.com.br','Heloise Gabriela Nair Oliveira','BCdOC8dMmL');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '786.523.009-50','13.086.419-5','lorenaantoniaribeiro@valltech.com.br','Lorena Antonia Ribeiro','groNO6kQ9h');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '839.694.682-56','49.126.826-9','eerickbrenoribeiro@pp33.com.br','Erick Breno Ribeiro','fMWtU8mryc');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '631.727.781-85','21.070.561-9','jjoanaritamelo@robertacorrea.com','Joana Rita Melo','2o1DYHxJ99');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '342.971.929-18','34.157.030-8','severinohenryaraujo-88@marcenariamagno.com.br','Severino Henry Araujo','7DBJ8xP4FO');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '386.425.791-37','47.002.949-3','rayssasophiaterezadasneves@jbtc.com','Rayssa Sophia Tereza das Neves','kmwHauPJxa');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '060.757.672-31','19.357.065-8','carlavitoriamelissanovaes@ocaconsultoria.com','Carla Vitoria Melissa Novaes','BR8FCgzqPG');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '450.243.766-25','43.980.606-9','mmarlivitoriaalessandrafogaca@vivo.com.br','Marli Vitoria Alessandra Fogaca','iQpngI8Tzk');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '115.090.906-49','17.687.263-2','simoneluziaamandarocha-86@ctlive.com.br','Simone Luzia Amanda Rocha','\\\\\\\\\\');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '499.389.888-65','47.148.865-3','diegobrunothomasdasilva@emerson.com','Diego Bruno Thomas da Silva','eAhYZUYRNO');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '669.099.945-90','20.136.633-2','rosamariahemilycaldeira_@robiel.com.br','Rosa Mariah Emily Caldeira','CG1jjSnaJC');
 INSERT INTO USUARIO VALUES (usuario_seq.nextval, '467.682.796-29','44.048.492-3','Aline Tereza Sophie Dias','aalineterezasophiedias@pichler.com.br','zUUgAItxEW');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '937.302.398-56','18.272.178-4','Fabio Samuel Jorge Baptista','ffabiosamueljorgebaptista@thibe.com.br','084kX5xt1m');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '274.249.058-25','30.688.977-9','Alex Costa Pinto','alex.costa19@fatec.gov.br','123456789');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '333.256.357-24','42.987.256-5','GABRIEL FERNANDES GIRAUD','gabrielGiraude@fatec.gov.br','123456789');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '333.255.333-24','29.957.325-4','MARCELO DE MELLO','MARCELOde@fatec.gov.br','265648987');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '937.302.398-56','18.272.178-4','ffabiosamueljorgebaptista@thibe.com.br','Fabio Samuel Jorge Baptista','084kX5xt1m');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '274.249.058-25','30.688.977-9','alex.costa19@fatec.gov.br','Alex Costa Pinto','123456789');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '333.256.357-24','42.987.256-5','gabrielGiraude@fatec.gov.br','GABRIEL FERNANDES GIRAUD','123456789');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '333.255.333-24','29.957.325-4','MARCELOde@fatec.gov.br','MARCELO DE MELLO','265648987');
 
 
 ------------------------- INSERIR DADOS PARA ENDEREÇOS DOS USUARIOS --------------------
@@ -117,11 +117,11 @@ INSERT INTO ALUNO VALUES (gera_RA_seq.nextval,121,2020060001);
 
 
 ------------------------- INSERIR DADOS PARA OS TIPOS DE SETORES --------------------
-INSERT INTO TIPO_SETOR VALUES (TIPO_SETOR_seq.nextval, 'ADMINISTRATIVO',2020060001);--1
-INSERT INTO TIPO_SETOR VALUES (TIPO_SETOR_seq.nextval, 'PEDAGOGICO',2020060001);--2
-INSERT INTO TIPO_SETOR VALUES (TIPO_SETOR_seq.nextval, 'FINANCEIRO',2020060001);--3
-INSERT INTO TIPO_SETOR VALUES (TIPO_SETOR_seq.nextval, 'ACADEMICO',2020060001);--4
-INSERT INTO TIPO_SETOR VALUES (TIPO_SETOR_seq.nextval, 'SERVICO',2020060001);--5
+INSERT INTO TIPO_SETOR VALUES (TIPO_SETOR_seq.nextval, 'ADMINISTRATIVO',2020060001);/* 1 */
+INSERT INTO TIPO_SETOR VALUES (TIPO_SETOR_seq.nextval, 'PEDAGOGICO',2020060001);/* 2 */
+INSERT INTO TIPO_SETOR VALUES (TIPO_SETOR_seq.nextval, 'FINANCEIRO',2020060001);/* 3 */
+INSERT INTO TIPO_SETOR VALUES (TIPO_SETOR_seq.nextval, 'ACADEMICO',2020060001);/* 4 */
+INSERT INTO TIPO_SETOR VALUES (TIPO_SETOR_seq.nextval, 'SERVICO',2020060001);/* 5 */
 
 
 ------------------------- INSERIR DADOS PARA AS TIPOS DE FUNÇÃO DE TRABALHO --------------------

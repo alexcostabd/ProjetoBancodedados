@@ -107,7 +107,7 @@ CREATE TABLE TIPO_FUNCAO (
     funcao_id NUMBER NOT NULL Primary key,
     funcao_descricao VARCHAR2(100) NOT NULL,
     funcao_salario NUMBER(10,2) NOT NULL,
-    emp_id NUMBER NOT NULL,
+    emp_id NUMBER NOT NULL, 
     tip_setorid NUMBER NOT NULL
 
 );
