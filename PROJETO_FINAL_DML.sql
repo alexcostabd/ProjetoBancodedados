@@ -1,5 +1,3 @@
-
-
 ------------------------- INSERIR DADOS PARA OS USU�?RIOS DA PLATAFORMA --------------------
 INSERT INTO USUARIO VALUES (usuario_seq.nextval, '261.829.966-33', '40.396.994-3','rafaelandrecaldeira@valedesign.com.br', 'Rafael Andrao Caldeira', 'ABC123');
 INSERT INTO USUARIO VALUES (usuario_seq.nextval, '364.937.718-70','30.116.574-9','kamillydeborarayssapereira@eccofibra.com.br','Kamilly Débora Rayssa Pereira','egeLPmASzl');
@@ -181,8 +179,4 @@ INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Recebimento de ma
 INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Pagamento de servidores', 'pagamentos', 3000.10, 3330.10, TO_DATE(nvl('','12/05/2020'),'DD/MM/YYYY'),9900002,2020060001,100);
 INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Recebimento de mensalidade', 'recebimentos', 1220.30, 1268.00, TO_DATE(nvl('','01/06/2020'),'DD/MM/YYYY'),9900002,2020060001,117);
 INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Recebimento de mensalidade', 'recebimentos', 1380.30, 1380.30, TO_DATE(nvl('','05/06/2020'),'DD/MM/YYYY'),9900002,2020060001,111);
-
-
-
-
 
