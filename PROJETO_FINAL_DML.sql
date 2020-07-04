@@ -21,7 +21,7 @@ INSERT INTO USUARIO VALUES (usuario_seq.nextval, '450.243.766-25','43.980.606-9'
 INSERT INTO USUARIO VALUES (usuario_seq.nextval, '115.090.906-49','17.687.263-2','simoneluziaamandarocha-86@ctlive.com.br','Simone Luzia Amanda Rocha','\\\\\\\\\\');
 INSERT INTO USUARIO VALUES (usuario_seq.nextval, '499.389.888-65','47.148.865-3','diegobrunothomasdasilva@emerson.com','Diego Bruno Thomas da Silva','eAhYZUYRNO');
 INSERT INTO USUARIO VALUES (usuario_seq.nextval, '669.099.945-90','20.136.633-2','rosamariahemilycaldeira_@robiel.com.br','Rosa Mariah Emily Caldeira','CG1jjSnaJC');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '467.682.796-29','44.048.492-3','Aline Tereza Sophie Dias','aalineterezasophiedias@pichler.com.br','zUUgAItxEW');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '467.682.796-29','44.048.492-3','aalineterezasophiedias@pichler.com.br','Aline Tereza Sophie Dias','zUUgAItxEW');
 INSERT INTO USUARIO VALUES (usuario_seq.nextval, '937.302.398-56','18.272.178-4','ffabiosamueljorgebaptista@thibe.com.br','Fabio Samuel Jorge Baptista','084kX5xt1m');
 INSERT INTO USUARIO VALUES (usuario_seq.nextval, '274.249.058-25','30.688.977-9','alex.costa19@fatec.gov.br','Alex Costa Pinto','123456789');
 INSERT INTO USUARIO VALUES (usuario_seq.nextval, '333.256.357-24','42.987.256-5','gabrielGiraude@fatec.gov.br','GABRIEL FERNANDES GIRAUD','123456789');
@@ -117,11 +117,19 @@ INSERT INTO ALUNO VALUES (gera_RA_seq.nextval,121,2020060001);
 
 
 ------------------------- INSERIR DADOS PARA OS TIPOS DE SETORES --------------------
+<<<<<<< HEAD
 INSERT INTO TIPO_SETOR VALUES (TIPO_SETOR_seq.nextval, 'ADMINISTRATIVO',2020060001);/* 1 */
 INSERT INTO TIPO_SETOR VALUES (TIPO_SETOR_seq.nextval, 'PEDAGOGICO',2020060001);/* 2 */
 INSERT INTO TIPO_SETOR VALUES (TIPO_SETOR_seq.nextval, 'FINANCEIRO',2020060001);/* 3 */
 INSERT INTO TIPO_SETOR VALUES (TIPO_SETOR_seq.nextval, 'ACADEMICO',2020060001);/* 4 */
 INSERT INTO TIPO_SETOR VALUES (TIPO_SETOR_seq.nextval, 'SERVICO',2020060001);/* 5 */
+=======
+INSERT INTO TIPO_SETOR VALUES (TIPO_SETOR_seq.nextval, 'ADMINISTRATIVO',2020060001);
+INSERT INTO TIPO_SETOR VALUES (TIPO_SETOR_seq.nextval, 'PEDAGOGICO',2020060001);
+INSERT INTO TIPO_SETOR VALUES (TIPO_SETOR_seq.nextval, 'FINANCEIRO',2020060001);
+INSERT INTO TIPO_SETOR VALUES (TIPO_SETOR_seq.nextval, 'ACADEMICO',2020060001);
+INSERT INTO TIPO_SETOR VALUES (TIPO_SETOR_seq.nextval, 'SERVICO',2020060001);
+>>>>>>> 34a6c883b6c91d58417985a142fd8e5281fe8ec5
 
 
 ------------------------- INSERIR DADOS PARA AS TIPOS DE FUNÇÃO DE TRABALHO --------------------
