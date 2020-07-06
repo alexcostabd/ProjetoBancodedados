@@ -1,12 +1,13 @@
-CREATE OR REPLACE VIEW VERIFICA_PAGAMENTOS_ATRASADOS
+  
+CREATE OR REPLACE VIEW VERIFICA_PAGAMENTOS_VENCIDOS
 AS
 SELECT 
-    USU.usu_nome "NOME DO USUÁRIO", 
-    USU.usu_cpf "CPF DO USUÁRIO",
+    USU.usu_nome "NOME DO USUÃRIO", 
+    USU.usu_cpf "CPF DO USUÃRIO",
     TRA.trans_data "DATA PARA PAGAMENTO",
     TREMP.traemp_datatransacao "DATA DO PAGAMENTO",
     EMP.emp_nome_fantasia "NOME DA EMPRESA",
-    TREMP.traEmp_descricao "DESCRIÇÃO DA TRANSAÇÃO",
+    TREMP.traEmp_descricao "DESCRIÃ‡ÃƒO DA TRANSAÃ‡ÃƒO",
     'R$ ' || TREMP.traEmp_valorLiquido "VALOR LIQUIDO PAGO"
 FROM 
     USUARIO USU, 
@@ -16,13 +17,6 @@ FROM
 WHERE
     USU.usu_id = TREMP.usu_id AND 
     TREMP.trans_id = TRA.trans_id AND
-    TREMP.traemp_datatransacao > TRA.trans_data AND
-    UPPER(TRA.TRANS_DESCRICAO) LIKE 'R%' AND
-    TREMP.traemp_datatransacao BETWEEN 
-    TO_DATE(nvl('','01/06/2020'),'DD/MM/YYYY') AND TO_DATE(nvl('','30/06/2020'),'DD/MM/YYYY')
+    TREMP.traemp_datatransacao > TRA.trans_data 
     ORDER BY TRA.trans_data, TREMP.traemp_datatransacao
 WITH READ ONLY;
-
-SELECT
-    *
-FROM VERIFICA_PAGAMENTOS_ATRASADOS;
