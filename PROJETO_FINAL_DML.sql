@@ -1,11 +1,11 @@
 ------------------------- INSERIR DADOS PARA OS USUï¿½?RIOS DA PLATAFORMA --------------------
 INSERT INTO USUARIO VALUES (usuario_seq.nextval, '261.829.966-33', '40.396.994-3','rafaelandrecaldeira@valedesign.com.br', 'Rafael Andrao Caldeira', 'ABC123');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '364.937.718-70','30.116.574-9','kamillydeborarayssapereira@eccofibra.com.br','Kamilly DÃ©bora Rayssa Pereira','egeLPmASzl');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '364.937.718-70','30.116.574-9','kamillydeborarayssapereira@eccofibra.com.br','Kamilly Débora Rayssa Pereira','egeLPmASzl');
 INSERT INTO USUARIO VALUES (usuario_seq.nextval, '525.049.011-51','42.875.239-1','alicesarasebastianagomes@charquesorocaba.com.br','Alice Sara Sebastiana Gomes','tdgtim1IPd');
 INSERT INTO USUARIO VALUES (usuario_seq.nextval, '404.386.784-00','18.394.145-7','bentogustavomanuelsales-90@vitaonline.com.br','Bento Gustavo Manuel Sales','EfffyWKhNk');
 INSERT INTO USUARIO VALUES (usuario_seq.nextval, '703.401.815-40','48.679.096-4','filiperenatodaluz@rubens.adm.br','Filipe Renato da Luz','PsKmLOsCaS');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '167.835.727-81','50.016.898-2','ccesarandreyagoassuncao@dyna.com.br','CÃ©sar AndrÃ© Yago AssunÃ§Ã£o','PG796TjolR');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '298.166.669-01','45.706.919-3','laissophieestherfigueiredo@focoreducao.com.br','LaÃ­s Sophie Esther Figueiredo','rMufXaL8BJ');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '167.835.727-81','50.016.898-2','ccesarandreyagoassuncao@dyna.com.br','César André Yago Assunção','PG796TjolR');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '298.166.669-01','45.706.919-3','laissophieestherfigueiredo@focoreducao.com.br','Laís Sophie Esther Figueiredo','rMufXaL8BJ');
 INSERT INTO USUARIO VALUES (usuario_seq.nextval, '809.540.527-22','39.959.298-2','henryrodrigodossantos-91@globomail.com', 'Henry Rodrigo dos Santos','Jq5GQWLxj8');
 INSERT INTO USUARIO VALUES (usuario_seq.nextval, '002.724.114-93','24.800.325-2','amandalarissaduarte_@ynail.com.br','Amanda Larissa Duarte','TPej9sDLzc');
 INSERT INTO USUARIO VALUES (usuario_seq.nextval, '282.052.167-38','29.911.226-3','heloisegabrielanairoliveira@ruizonline.com.br','Heloise Gabriela Nair Oliveira','BCdOC8dMmL');
@@ -23,8 +23,15 @@ INSERT INTO USUARIO VALUES (usuario_seq.nextval, '467.682.796-29','44.048.492-3'
 INSERT INTO USUARIO VALUES (usuario_seq.nextval, '937.302.398-56','18.272.178-4','ffabiosamueljorgebaptista@thibe.com.br','Fabio Samuel Jorge Baptista','084kX5xt1m');
 INSERT INTO USUARIO VALUES (usuario_seq.nextval, '274.249.058-25','30.688.977-9','alex.costa19@fatec.gov.br','Alex Costa Pinto','123456789');
 INSERT INTO USUARIO VALUES (usuario_seq.nextval, '333.256.357-24','42.987.256-5','gabrielGiraude@fatec.gov.br','GABRIEL FERNANDES GIRAUD','123456789');
-INSERT INTO USUARIO VALUES (usuario_seq.nextval, '333.255.333-24','29.957.325-4','MARCELOde@fatec.gov.br','MARCELO DE MELLO','265648987');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '333.255.333-11','29.901.318-0','MARCELOde@fatec.gov.br','MARCELO DE MELLO','265648987');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '500.356.524-12','29.957.325-9','FernandesComercioOffce@fatec.gov.br','Fernandes & CIA comercio de materiais de escritório','123321123');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '96390060000137','30.999.387-7','administracao@marinaeagathaadvocacialtda.com.br','Marina e Agatha Advocacia Ltda','abcdef123');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '427.706.227-06','12.007.985-9','iancalebhenrymendes@vnews.com.br','Ian Caleb Henry Mendes','659659659');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '395.736.517-18','36.301.279-5','nninaisadoralopes@yande.com.br','Nina Isadora Lopes','62626262');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '025.468.507-25','19.895.098-6','sebastianacarolinerosangelateixeira-91@kframe.com.br','Sebastiana Caroline Rosângela Teixeira','99556622');
+INSERT INTO USUARIO VALUES (usuario_seq.nextval, '043540387730','37.010.731-7','priscilavanessagiovanafreitas-92@inpa.gov.br','Priscila Vanessa Giovana Freitas','332224455');
 
+--select * from USUARIO;
 
 ------------------------- INSERIR DADOS PARA ENDEREÃ‡OS DOS USUARIOS --------------------
 INSERT INTO ENDERECO VALUES (endereco_seq.nextval,100,'69312-531','Rua IdÃ¯Â¿Â½lia Soares Maduro',419,'apartamento','PE', 'Rio pardo', 'Jardim nova esperanca');
@@ -50,6 +57,13 @@ INSERT INTO ENDERECO VALUES (endereco_seq.nextval,119,'13423-590','Rua Amparo',7
 INSERT INTO ENDERECO VALUES (endereco_seq.nextval,120,'05360-153','Viela Roberto de Barros',901,'','SP','Sao Paulo','Vila Butanta');
 INSERT INTO ENDERECO VALUES (endereco_seq.nextval,121,'13468-340','Rua Leonardo da Vinci',727,'','SP','Americana','Parque Residencial Nardini');
 INSERT INTO ENDERECO VALUES (endereco_seq.nextval,124,'22568-340','Rua Letonia',7894,'','SP','Jundiai','Mar de alcantara');
+INSERT INTO ENDERECO VALUES (endereco_seq.nextval,125,'12325-150','Rua Almenara Gonçalves',265,'','SP','Paulinea','Vila dos Lobos');
+INSERT INTO ENDERECO VALUES (endereco_seq.nextval,126,'13617-765','Rua Cândido Zorzo',947,'','SP','Leme','Jardim Residencial Quáglia');
+INSERT INTO ENDERECO VALUES (endereco_seq.nextval,127,'28083-410','Rua Maestro Etienne Samary',708,'Ap 202','RJ','Campos dos Goytacazes','Parque Novo Mundo');
+INSERT INTO ENDERECO VALUES (endereco_seq.nextval,128,'25545-040','Rua Arizona',257,'fundos','RJ','São João de Meriti','Vila Zulmira');
+INSERT INTO ENDERECO VALUES (endereco_seq.nextval,129,'26231-000','Rua Amélia Peixoto',400,'','RJ','Nova Iguaçu','Peixoto');
+INSERT INTO ENDERECO VALUES (endereco_seq.nextval,130,'28625-460','Rua Arnaldo Bittencourt',708,'','RJ','Nova Friburgo','Cetro');
+
 
 
 ------------------------- INSERIR DADOS DOS TELEFONES DOS USUARIOS --------------------
@@ -82,6 +96,21 @@ INSERT INTO TELEFONE VALUES (telefone_seq.nextval,121,11,'99624-6764');
 INSERT INTO TELEFONE VALUES (telefone_seq.nextval,121,12,'2960-1162');
 INSERT INTO TELEFONE VALUES (telefone_seq.nextval,120,12,'98441-0964');
 INSERT INTO TELEFONE VALUES (telefone_seq.nextval,124,13,'99658-2354');
+INSERT INTO TELEFONE VALUES (telefone_seq.nextval,124,13,'99658-2354');
+INSERT INTO TELEFONE VALUES (telefone_seq.nextval,125,12,'39658-2567');
+INSERT INTO TELEFONE VALUES (telefone_seq.nextval,126,19,'2775-3341');
+INSERT INTO TELEFONE VALUES (telefone_seq.nextval,126,19,'98475-2859');
+INSERT INTO TELEFONE VALUES (telefone_seq.nextval,127,22,'99440-8736');
+INSERT INTO TELEFONE VALUES (telefone_seq.nextval,128,21,'3694-3772');
+INSERT INTO TELEFONE VALUES (telefone_seq.nextval,128,21,'99807-7363');
+INSERT INTO TELEFONE VALUES (telefone_seq.nextval,129,21,'99100-9805');
+INSERT INTO TELEFONE VALUES (telefone_seq.nextval,130,22,'3967-5717');
+INSERT INTO TELEFONE VALUES (telefone_seq.nextval,130,22,'99834-3133');
+
+
+
+
+
 
 
 ------------------------- INSERIR DADOS PARA A EMPRESA --------------------
@@ -112,6 +141,13 @@ INSERT INTO ALUNO VALUES (gera_RA_seq.nextval,118,2020060001);
 INSERT INTO ALUNO VALUES (gera_RA_seq.nextval,119,2020060001);
 INSERT INTO ALUNO VALUES (gera_RA_seq.nextval,120,2020060001);
 INSERT INTO ALUNO VALUES (gera_RA_seq.nextval,121,2020060001);
+INSERT INTO ALUNO VALUES (gera_RA_seq.nextval,127,2020060001);
+INSERT INTO ALUNO VALUES (gera_RA_seq.nextval,128,2020060001);
+INSERT INTO ALUNO VALUES (gera_RA_seq.nextval,129,2020060001);
+INSERT INTO ALUNO VALUES (gera_RA_seq.nextval,130,2020060001);
+
+
+
 
 
 ------------------------- INSERIR DADOS PARA OS TIPOS DE SETORES --------------------
@@ -128,7 +164,7 @@ INSERT INTO TIPO_FUNCAO VALUES (FUNCAO_seq.nextval,'PROFESSOR HUMANAS',2800.90, 
 INSERT INTO TIPO_FUNCAO VALUES (FUNCAO_seq.nextval,'PROFESSOR BIOLOGICAS',2400.30, 2020060001,2);
 INSERT INTO TIPO_FUNCAO VALUES (FUNCAO_seq.nextval,'GESTOR',5000.80, 2020060001,1);
 INSERT INTO TIPO_FUNCAO VALUES (FUNCAO_seq.nextval,'MANUTENCAO',1750.20, 2020060001,5);
-INSERT INTO TIPO_FUNCAO VALUES (FUNCAO_seq.nextval,'SERVIÃ‡OS GERAIS',1600.20, 2020060001,5);
+INSERT INTO TIPO_FUNCAO VALUES (FUNCAO_seq.nextval,'SERVIÇOS GERAIS',1600.20, 2020060001,5);
 INSERT INTO TIPO_FUNCAO VALUES (FUNCAO_seq.nextval,'ADMINISTRATIVO FINANCEIRO',3200.50, 2020060001,3);
 INSERT INTO TIPO_FUNCAO VALUES (FUNCAO_seq.nextval,'ADMINISTRATIVO RECURSOS HUMANOS',3200.50, 2020060001,1);
 INSERT INTO TIPO_FUNCAO VALUES (FUNCAO_seq.nextval,'COORDENADOR',4500.00, 2020060001,4);
@@ -145,6 +181,7 @@ INSERT INTO FUNCIONARIO VALUES (funcionario_seq.nextval,'33659368-77',106,202006
 INSERT INTO FUNCIONARIO VALUES (funcionario_seq.nextval,'66958647-57',107,2020060001);
 INSERT INTO FUNCIONARIO VALUES (funcionario_seq.nextval,'15248957-25',108,2020060001);
 
+select * from FUNCIONARIO;
 
 ------------------------- INSERIR DADOS PARA AS FUNÃ‡Ã•E DE TRABALHO --------------------
 INSERT INTO FUNCAO_FUNC VALUES (1, 501, 2020060001);
@@ -170,13 +207,57 @@ INSERT INTO TRANSACAO VALUES(TRANSACAO_seq.nextval, 'RECEBIENTO DE MATRICULA', T
 INSERT INTO TRANSACAO VALUES(TRANSACAO_seq.nextval, 'PAGAMETO DE FUNCIONARIO', TO_DATE(nvl('','12/05/2020'),'DD/MM/YYYY'), 2020060001);
 INSERT INTO TRANSACAO VALUES(TRANSACAO_seq.nextval, 'RECEBIMENTO MENSALIDADE', TO_DATE(nvl('','20/05/2020'),'DD/MM/YYYY'), 2020060001);
 INSERT INTO TRANSACAO VALUES(TRANSACAO_seq.nextval, 'RECEBIMENTO MENSALIDADE', TO_DATE(nvl('','05/06/2020'),'DD/MM/YYYY'), 2020060001);
+INSERT INTO TRANSACAO VALUES(TRANSACAO_seq.nextval, 'RECEBIMENTO MENSALIDADE', TO_DATE(nvl('','01/06/2020'),'DD/MM/YYYY'), 2020060001);
+INSERT INTO TRANSACAO VALUES(TRANSACAO_seq.nextval, 'PAGAMETO DE INSUMOS', TO_DATE(nvl('','02/06/2020'),'DD/MM/YYYY'), 2020060001);
+INSERT INTO TRANSACAO VALUES(TRANSACAO_seq.nextval, 'PAGAMETO DE INSUMOS', TO_DATE(nvl('','01/05/2020'),'DD/MM/YYYY'), 2020060001);
+INSERT INTO TRANSACAO VALUES(TRANSACAO_seq.nextval, 'RECEBIMENTO MENSALIDADE', TO_DATE(nvl('','01/06/2020'),'DD/MM/YYYY'), 2020060001);
+INSERT INTO TRANSACAO VALUES(TRANSACAO_seq.nextval, 'RECEBIMENTO DE MATRICULA', TO_DATE(nvl('','20/05/2020'),'DD/MM/YYYY'), 2020060001);
+INSERT INTO TRANSACAO VALUES(TRANSACAO_seq.nextval, 'RECEBIMENTO DE REMATRICOLA', TO_DATE(nvl('','10/06/2020'),'DD/MM/YYYY'), 2020060001);
+INSERT INTO TRANSACAO VALUES(TRANSACAO_seq.nextval, 'RECEBIMENTO DE REMATRICOLA', TO_DATE(nvl('','10/06/2020'),'DD/MM/YYYY'), 2020060001);
+INSERT INTO TRANSACAO VALUES(TRANSACAO_seq.nextval, 'RECEBIMENTO DE REMATRICOLA', TO_DATE(nvl('','10/06/2020'),'DD/MM/YYYY'), 2020060001);
+INSERT INTO TRANSACAO VALUES(TRANSACAO_seq.nextval, 'PAGAMETO DE FUNCIONARIO', TO_DATE(nvl('','01/06/2020'),'DD/MM/YYYY'), 2020060001);
+INSERT INTO TRANSACAO VALUES(TRANSACAO_seq.nextval, 'PAGAMETO DE FUNCIONARIO', TO_DATE(nvl('','01/06/2020'),'DD/MM/YYYY'), 2020060001);
+INSERT INTO TRANSACAO VALUES(TRANSACAO_seq.nextval, 'PAGAMETO DE FUNCIONARIO', TO_DATE(nvl('','01/06/2020'),'DD/MM/YYYY'), 2020060001);
+INSERT INTO TRANSACAO VALUES(TRANSACAO_seq.nextval, 'PAGAMETO DE FUNCIONARIO', TO_DATE(nvl('','01/06/2020'),'DD/MM/YYYY'), 2020060001);
+INSERT INTO TRANSACAO VALUES(TRANSACAO_seq.nextval, 'PAGAMETO DE FUNCIONARIO', TO_DATE(nvl('','01/06/2020'),'DD/MM/YYYY'), 2020060001);
+INSERT INTO TRANSACAO VALUES(TRANSACAO_seq.nextval, 'PAGAMETO DE FUNCIONARIO', TO_DATE(nvl('','01/06/2020'),'DD/MM/YYYY'), 2020060001);
+INSERT INTO TRANSACAO VALUES(TRANSACAO_seq.nextval, 'PAGAMETO DE FUNCIONARIO', TO_DATE(nvl('','01/06/2020'),'DD/MM/YYYY'), 2020060001);
+INSERT INTO TRANSACAO VALUES(TRANSACAO_seq.nextval, 'PAGAMETO DE FUNCIONARIO', TO_DATE(nvl('','01/06/2020'),'DD/MM/YYYY'), 2020060001);
+INSERT INTO TRANSACAO VALUES(TRANSACAO_seq.nextval, 'PAGAMETO DE FUNCIONARIO', TO_DATE(nvl('','01/06/2020'),'DD/MM/YYYY'), 2020060001);
+
+
+
+
 
 
 ------------------------- INSERIR DADOS PARA AS TRANSACOES DA EMPRESA ENTRE USUARIOS--------------------
-INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Pagamento de materiais de limpesa', 'pagamentos', 380.95, 380.95, TO_DATE(nvl('','05/05/2020'),'DD/MM/YYYY'),9900002,2020060001,124);
+INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Pagamento de materiais de limpesa', 'pagamentos', 380.95, 380.95, TO_DATE(nvl('','05/05/2020'),'DD/MM/YYYY'),9900001,2020060001,124);
 INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Recebimento de mensalidade', 'recebimentos', 1420.30, 1200.00, TO_DATE(nvl('','15/05/2020'),'DD/MM/YYYY'),9900002,2020060001,109);
-INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Recebimento de matricula', 'recebimentos', 650.00, 520.50, TO_DATE(nvl('','12/05/2020'),'DD/MM/YYYY'),9900002,2020060001,115);
-INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Pagamento de servidores', 'pagamentos', 3000.10, 3330.10, TO_DATE(nvl('','12/05/2020'),'DD/MM/YYYY'),9900002,2020060001,100);
-INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Recebimento de mensalidade', 'recebimentos', 1220.30, 1268.00, TO_DATE(nvl('','01/06/2020'),'DD/MM/YYYY'),9900002,2020060001,117);
-INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Recebimento de mensalidade', 'recebimentos', 1380.30, 1380.30, TO_DATE(nvl('','05/06/2020'),'DD/MM/YYYY'),9900002,2020060001,111);
+INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Recebimento de matricula', 'recebimentos', 650.00, 520.50, TO_DATE(nvl('','12/05/2020'),'DD/MM/YYYY'),9900003,2020060001,115);
+INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Pagamento de servidores', 'pagamentos', 3000.10, 3330.10, TO_DATE(nvl('','12/05/2020'),'DD/MM/YYYY'),9900004,2020060001,100);
+INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Recebimento de mensalidade', 'recebimentos', 1220.30, 1268.00, TO_DATE(nvl('','01/06/2020'),'DD/MM/YYYY'),9900005,2020060001,117);
+INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Recebimento de mensalidade', 'recebimentos', 1380.30, 1380.30, TO_DATE(nvl('','05/06/2020'),'DD/MM/YYYY'),9900006,2020060001,111);
+INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Recebimento de mensalidade', 'recebimentos', 1190.20, 1260.00, TO_DATE(nvl('','08/06/2020'),'DD/MM/YYYY'),9900007,2020060001,111);
+INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Pagamento de materiais de limpesa', 'pagamentos', 530.65, 530.65, TO_DATE(nvl('','02/06/2020'),'DD/MM/YYYY'),9900008,2020060001,127);
+INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Pagamento de materiais de escritório', 'pagamentos', 530.65, 530.65, TO_DATE(nvl('','02/06/2020'),'DD/MM/YYYY'),9900009,2020060001,126);
+INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Recebimento de mensalidade', 'recebimentos', 996.00, 996.00, TO_DATE(nvl('','01/06/2020'),'DD/MM/YYYY'),9900010,2020060001,130);
+INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Recebimento de matricula', 'recebimentos', 650.50, 650.50, TO_DATE(nvl('','01/06/2020'),'DD/MM/YYYY'),9900011,2020060001,128);
+INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Recebimento de rematicula', 'recebimentos', 900.00, 1010.00, TO_DATE(nvl('','16/06/2020'),'DD/MM/YYYY'),9900012,2020060001,110);
+INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Recebimento de rematicula', 'recebimentos', 900.00, 900.00, TO_DATE(nvl('','09/06/2020'),'DD/MM/YYYY'),9900013,2020060001,118);
+INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Recebimento de rematicula', 'recebimentos', 900.00, 1000.00, TO_DATE(nvl('','15/06/2020'),'DD/MM/YYYY'),9900014,2020060001,119);
+INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Pagamento de servidores', 'pagamentos', 4500.00, 4600.00, TO_DATE(nvl('','12/05/2020'),'DD/MM/YYYY'),9900015,2020060001,108);
+INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Pagamento de servidores', 'pagamentos', 3200.50, 3200.50, TO_DATE(nvl('','12/05/2020'),'DD/MM/YYYY'),9900016,2020060001,107);
+INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Pagamento de servidores', 'pagamentos', 3200.50, 3200.50, TO_DATE(nvl('','12/05/2020'),'DD/MM/YYYY'),9900017,2020060001,106);
+INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Pagamento de servidores', 'pagamentos', 1600.20, 1600.20, TO_DATE(nvl('','12/05/2020'),'DD/MM/YYYY'),9900018,2020060001,105);
+INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Pagamento de servidores', 'pagamentos', 1750.20, 1750.20, TO_DATE(nvl('','12/05/2020'),'DD/MM/YYYY'),9900019,2020060001,104);
+INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Pagamento de servidores', 'pagamentos', 5000.80, 5000.80, TO_DATE(nvl('','12/05/2020'),'DD/MM/YYYY'),9900020,2020060001,103);
+INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Pagamento de servidores', 'pagamentos', 2400.30, 2400.30, TO_DATE(nvl('','12/05/2020'),'DD/MM/YYYY'),9900021,2020060001,102);
+INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Pagamento de servidores', 'pagamentos', 2800.90, 3000.63, TO_DATE(nvl('','12/05/2020'),'DD/MM/YYYY'),9900022,2020060001,101);
+INSERT INTO TRANSACAO_EMPRESA VALUES(TRA_EMPRESA_seq.nextval, 'Pagamento de servidores', 'pagamentos', 3000.10, 3000.10, TO_DATE(nvl('','12/05/2020'),'DD/MM/YYYY'),9900023,2020060001,100);
+
+
+select * from usuario;
+
+
+
 
