@@ -30,6 +30,9 @@ DROP TABLE historico_transacao_empresa;
 
 DROP TABLE historico_tipo_funcao; 
 
+DROP TABLE HISTORICO_SENHA;
+
+
 CREATE TABLE usuario 
   ( 
      usu_id    NUMBER NOT NULL PRIMARY KEY, 
@@ -245,3 +248,6 @@ CREATE TABLE historico_tipo_funcao
      emp_id           NUMBER NOT NULL, 
      tip_setorid      NUMBER NOT NULL 
   ); 
+
+
+CREATE TABLE HISTORICO_SENHA(USU_ID NUMBER NOT NULL, TIMESTAMP DATETIME NOT NULL, SENHA VARCHAR(20)NOT NULL);
