@@ -1,9 +1,9 @@
 /*
-* VERIFICA OS RECEBIMENTOS DE USUÃ?RIOS EM UMA DETERMINADA FAIXA DE TEMPO.
+* VERIFICA OS RECEBIMENTOS DE USUï¿½?RIOS EM UMA DETERMINADA FAIXA DE TEMPO.
 */
 SELECT 
-    USU.usu_cpf "CPF DO USUÃ?RIO", 
-    USU.usu_nome "NOME DO USUÃ?RIO",
+    USU.usu_cpf "CPF DO USUï¿½?RIO", 
+    USU.usu_nome "NOME DO USUï¿½?RIO",
     TRA.traEmp_id "NÃšMERO DA TRANSAÃ‡ÃƒO",
     TRA.traEmp_valorLiquido "VALOR LIQUIDO PAGO"
 
@@ -16,15 +16,15 @@ WHERE
 
 
 /*
-* VERIFICA OS RECEBIMENTO DE USUÃ?RIOS EM UMA DETERMINADA FAIXA DE TEMPO.
+* VERIFICA OS RECEBIMENTO DE USUï¿½?RIOS EM UMA DETERMINADA FAIXA DE TEMPO.
 */
 SELECT
-    DISTINCT USU.usu_nome "NOME FUNCIONÃ?RIO",
+    DISTINCT USU.usu_nome "NOME FUNCIONï¿½?RIO",
     TEL.tel_ddd "DDD",
     TEL.tel_numero "TELEFONE",
     STR.tip_descricao "SETOR",
     EMP.emp_nome_fantasia "NOME DA EMPRESA",
-    TPF.funcao_salario "SALÃ?RIO"
+    TPF.funcao_salario "SALï¿½?RIO"
 FROM 
     USUARIO USU, 
     FUNCIONARIO FUN,
@@ -46,12 +46,12 @@ WHERE
     
     
 SELECT 
-    USU.usu_nome "NOME DO USUÁRIO", 
-    USU.usu_cpf "CPF DO USUÁRIO",
+    USU.usu_nome "NOME DO USUï¿½RIO", 
+    USU.usu_cpf "CPF DO USUï¿½RIO",
     TRA.trans_data "DATA PARA PAGAMENTO",
     TREMP.traemp_datatransacao "DATA DE PAGAMENTO",
     EMP.emp_nome_fantasia "NOME DA EMPRESA",
-    TREMP.traEmp_descricao "DESCRIÇÃO DA TRANSAÇÃO",
+    TREMP.traEmp_descricao "DESCRIï¿½ï¿½O DA TRANSAï¿½ï¿½O",
     'R$ ' || TREMP.traEmp_valorLiquido "VALOR LIQUIDO PAGO"
 FROM 
     USUARIO USU, 
